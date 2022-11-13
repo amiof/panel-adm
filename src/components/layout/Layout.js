@@ -7,10 +7,10 @@ const Layout = () => {
   return (
     <>
       <div className="flex flex-row-reverse">
-        <div className="w-4/5">
-          <div className=" h-30  flex flex-row bg-gray-50 ">
+        <div className="w-4/5 bg-black  " >
+          <div className=" h-30  flex flex-row bg-black ">
             <TopPanel />
-          </div>
+          </div >
             <Main></Main>
         </div>
         <RightPanel />
