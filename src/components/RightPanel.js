@@ -1,7 +1,7 @@
 import React from 'react';
 const RightPanel = () => {
     return (
-        <div className="w-1/5 border-2 border-cool-gray-900 min-h-screen">
+        <div className="w-1/5 shadow-2xl shadow-dark-500 rounded-xl min-h-screen">
             
             <ul className=" mt-16 divide-y-2 divide-dashed">
                 <li className="p-5 ">داشتبورد</li>
