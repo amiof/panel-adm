@@ -1,8 +1,13 @@
+import Layout from "./components/layout/Layout";
+import RightPanel from "./components/RightPanel";
+import TopPanel from "./components/TopPanel";
 
 
 function App() {
   return (
-    <div >
+    <div className="box-border">
+      
+     <Layout></Layout>
   
     </div>
   );
