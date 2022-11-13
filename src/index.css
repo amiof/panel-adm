@@ -17,4 +17,6 @@ code {
 }
 @tailwind base;
 @tailwind components;
+@import url(./fonts/font.css);
 @tailwind utilities;
+
