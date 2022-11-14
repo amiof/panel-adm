@@ -1,14 +1,14 @@
 const dashbord =  <svg
 xmlns="http://www.w3.org/2000/svg"
-class="icon icon-tabler icon-tabler-border-all"
+className="icon icon-tabler icon-tabler-border-all"
 width="24"
 height="24"
 viewBox="0 0 24 24"
-stroke-width="2"
+strokeWidth="2"
 stroke="currentColor"
 fill="none"
-stroke-linecap="round"
-stroke-linejoin="round"
+strokeLinecap="round"
+strokeLinejoin="round"
 >
 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
 <rect x="4" y="4" width="16" height="16" rx="2"></rect>
@@ -17,15 +17,15 @@ stroke-linejoin="round"
 </svg>
 const users= <svg
 xmlns="http://www.w3.org/2000/svg"
-class="icon icon-tabler icon-tabler-users"
+className="icon icon-tabler icon-tabler-users"
 width="24"
 height="24"
 viewBox="0 0 24 24"
-stroke-width="2"
+strokeWidth="2"
 stroke="currentColor"
 fill="none"
-stroke-linecap="round"
-stroke-linejoin="round"
+strokeLinecap="round"
+strokeLinejoin="round"
 >
 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
 <circle cx="9" cy="7" r="4"></circle>
@@ -35,15 +35,15 @@ stroke-linejoin="round"
 </svg>
 const manage=  <svg
 xmlns="http://www.w3.org/2000/svg"
-class="icon icon-tabler icon-tabler-adjustments-horizontal"
+className="icon icon-tabler icon-tabler-adjustments-horizontal"
 width="24"
 height="24"
 viewBox="0 0 24 24"
-stroke-width="2"
+strokeWidth="2"
 stroke="currentColor"
 fill="none"
-stroke-linecap="round"
-stroke-linejoin="round"
+strokeLinecap="round"
+strokeLinejoin="round"
 >
 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
 <circle cx="14" cy="6" r="2"></circle>
@@ -59,15 +59,15 @@ stroke-linejoin="round"
 
 const other =<svg
 xmlns="http://www.w3.org/2000/svg"
-class="icon icon-tabler icon-tabler-clipboard-list"
+className="icon icon-tabler icon-tabler-clipboard-list"
 width="24"
 height="24"
 viewBox="0 0 24 24"
-stroke-width="2"
+strokeWidth="2"
 stroke="currentColor"
 fill="none"
-stroke-linecap="round"
-stroke-linejoin="round"
+strokeLinecap="round"
+strokeLinejoin="round"
 >
 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
 <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"></path>

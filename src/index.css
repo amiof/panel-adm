@@ -20,3 +20,9 @@ code {
 @import url(./fonts/font.css);
 @tailwind utilities;
 
+.nav-link {
+  @apply p-5 hover:text-white hover:bg-gray-800 flex justify-between align-middle rounded-bl-3xl rounded-tl-3xl pl-6 whitespace-nowrap
+}
+.nav-link.visited {
+  @apply bg-cyan-500 text-white
+}
