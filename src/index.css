@@ -21,8 +21,27 @@ code {
 @tailwind utilities;
 
 .nav-link {
-  @apply p-5 hover:text-white hover:bg-gray-800 flex justify-between align-middle rounded-bl-3xl rounded-tl-3xl pl-6 whitespace-nowrap
+  @apply p-5 hover:text-white hover:bg-gray-800 w-full flex align-middle rounded-bl-3xl rounded-tl-3xl pl-6 whitespace-nowrap
 }
 .nav-link.visited {
   @apply bg-cyan-500 text-white
+}
+.sub-link{
+  @apply  mr-10 hover:text-white hover:bg-gray-800 rounded-xl p-5
+}
+.sub-link a:before {
+    content:'';
+    position: absolute;
+    display: block;
+    top:1rem;
+    bottom: 1rem;
+    right:2rem;
+    width: 1px;
+    background:  rgba(255, 255, 255, 0.39);
+    margon-left : 3rem;
+
+
+}
+.hid {
+  @apply block  !important
 }
