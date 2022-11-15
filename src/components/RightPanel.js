@@ -19,9 +19,9 @@ const RightPanel = () => {
   };
 
   return (
-    <div className="bg-slate-500 flex flex-col w-1/5">
-      <div className="w-full shadow-2xl shadow-dark-500 rounded-xl min-h-screen mt-4 bg-gray-900">
-        <ul className=" mt-16 divide-y divide-slate-700 text-white/60  font-vazir ">
+    <div className="bg-gray-900 flex flex-col w-1/5">
+      <div className="w-full shadow-2xl shadow-dark-500 rounded-xl min-h-screen mt-4 bg-gray-800 border border-gray-700">
+        <ul className=" mt-16 divide-y divide-slate-500 text-white/60  font-vazir ">
           <li>
             <div className="flex w-full justify-between rounded-3xl group ">
               <div className="group-hover:bg-red-600  w-1 inline-block"></div>

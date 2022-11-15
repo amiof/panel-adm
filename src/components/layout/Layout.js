@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <>
       <div className="flex flex-row-reverse">
-        <div className="w-4/5 bg-slate-500" >
+        <div className="w-4/5 bg-gray-900" >
           
             <TopPanel />
           

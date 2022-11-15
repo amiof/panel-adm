@@ -21,13 +21,13 @@ code {
 @tailwind utilities;
 
 .nav-link {
-  @apply p-5 hover:text-white hover:bg-gray-800 w-full flex align-middle rounded-bl-3xl rounded-tl-3xl pl-6 whitespace-nowrap
+  @apply p-5 hover:text-white hover:bg-gray-700 w-full flex align-middle rounded-bl-3xl rounded-tl-3xl pl-6 whitespace-nowrap
 }
 .nav-link.visited {
   @apply bg-cyan-500 text-white font-samim font-bold
 }
 .sub-link{
-  @apply  mr-10 hover:text-white hover:bg-gray-800 rounded-xl p-5
+  @apply  mr-10 hover:text-white hover:bg-gray-700 rounded-xl p-5
 }
 .sub-link a:before {
     content:'';
