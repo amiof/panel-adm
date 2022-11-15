@@ -11,11 +11,11 @@ const TopPanel = () => {
             <div className="mr-4">
             <h3>{`username:  amiro` }</h3>
             </div>
-            <img src={logo} alt="logo" className="w-12 rounded-full m-3 "></img>
+            <img src={logo} alt="logo" className="w-12 h-12 ring-2 dark:ring-gray-500 rounded-full p-1 m-3 "></img>
             </div>
         <div className="flex w-35 justify-between">
-            <div className="relative  w-20 flex justify-center"><p>{mail}<span className="absolute  w-5 h-5 pb-2 top-5 right-3 text-center text-white font-bold bg-red-600 rounded-full" >1</span></p></div>
-            <span className="relative"><p>{bell}<spn className="absolute  w-5 h-5 align-middle top-5 -right-3 text-center text-white font-bold bg-red-600 rounded-full">5</spn></p></span>
+            <div className="relative  w-20 "><p>{mail}<span className="absolute flex justify-center items-center  w-5 h-5  top-5 -right-3 text-center text-white font-bold bg-red-600 rounded-full" >1</span></p></div>
+            <span className="relative"><p>{bell}<spn className="absolute inline-flex justify-center items-center w-5 h-5  top-5 -right-3 text-white font-bold bg-red-600 rounded-full">5</spn></p></span>
         </div>
         </div>
     </div>
