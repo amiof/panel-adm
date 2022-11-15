@@ -214,4 +214,16 @@ const logout=<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler ico
 <path d="M7 12h14l-3 -3m0 6l3 -3"></path>
 </svg>
 
-export { dashbord, users, manage, other, adduser, edituser, removeUser, arrowRight,caretRight,settting, logout, };
+
+const bell =<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"></path>
+<path d="M9 17v1a3 3 0 0 0 6 0v-1"></path>
+</svg>
+const mail=<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<rect x="3" y="5" width="18" height="14" rx="2"></rect>
+<polyline points="3 7 12 13 21 7"></polyline>
+</svg>
+
+export { dashbord, users,bell, manage, mail, other, adduser, edituser, removeUser, arrowRight,caretRight,settting, logout, };

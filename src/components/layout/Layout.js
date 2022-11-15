@@ -8,9 +8,9 @@ const Layout = () => {
     <>
       <div className="flex flex-row-reverse">
         <div className="w-4/5 bg-slate-500" >
-          <div className=" h-30  flex flex-row">
+          
             <TopPanel />
-          </div >
+          
             <Main></Main>
         </div>
         <RightPanel />
